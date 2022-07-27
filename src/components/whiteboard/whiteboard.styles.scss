@@ -1,0 +1,21 @@
+.whiteboard-container {
+    width: 750px;
+    height: 400px;
+    background: 
+    linear-gradient(120deg,#fbfbfb, #ffffff);
+    border: 2px solid lightgray;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+
+    .heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
